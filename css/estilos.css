@@ -81,7 +81,7 @@ section{
   margin-bottom: 4.5em;
 }
 
-#imagenIzquierda{
+#imgIzq{
   	width:100%;
   	max-width: 100%;
     margin-bottom: 0;
@@ -89,7 +89,7 @@ section{
 
 .imagenDerecha{
   text-align: center;
-  width: 45%;
+  width: 50%;
   margin-left: 4.5em;
   margin-right: 4.5em;
   margin-bottom: 4.5em;
@@ -98,12 +98,109 @@ section{
 #imagenDerecha{
   	width:100%;
   	max-width: 100%;
-    height: 13.6em;
+    height: 17.5em;
 }
-
+footer{
+  color: white;
+}
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
 #piePagina{
+  border-radius: 0 0 10px 10px;
   height: 20vw;
   width: 99%;
   padding-top: 10px;
-  background-color: orange;
+  background-color: #C6d5c5;
+}
+
+#piePagina .contenedor>div{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  width: 25%;
+}
+
+.contenedor p{
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.contenedor ul{
+  text-align: justify;
+}
+
+#pie1{
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#pie1 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+#pie1 ul li{
+  margin: 0 5px;
+  padding-bottom: 2ex;
+}
+
+#pie2{
+  padding: 0;
+  margin-left: 0;
+  margin-right: 10;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#pie2 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+#pie3{
+  padding: 0;
+  margin-left: 0;
+  margin-right: 10;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#pie3 li img{
+  width: 9%;
+}
+#pie3 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+#pie3 ul li{
+  margin: 0 5px;
+  padding-bottom: 2ex;
+}
+
+#pie4{
+  padding: 0;
+  margin-left: 0;
+  margin-right: 10;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#pie4 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+#pie4 ul li{
+  margin: 0 5px;
+  padding-bottom: 2ex;
 }
