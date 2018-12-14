@@ -109,9 +109,9 @@ footer{
 }
 #piePagina{
   border-radius: 0 0 10px 10px;
-  height: 20vw;
+  height: 17vw;
   width: 99%;
-  padding-top: 10px;
+  padding-top: 0;
   background-color: #C6d5c5;
 }
 
@@ -203,4 +203,31 @@ footer{
 #pie4 ul li{
   margin: 0 5px;
   padding-bottom: 2ex;
+}
+
+.galeria{
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  height: 50%;
+  width: 99%;
+  padding-top: 2em;
+  margin-right: 2em;
+  background-color: #d5c75f;
+  border: 1px;
+  border-radius: 10px 10px 0 0;
+}
+
+.imagenes{
+  text-align: center;
+  width: 33.3%;
+  height: 20vw;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right:0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom:0;
 }
