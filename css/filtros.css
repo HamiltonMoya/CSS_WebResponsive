@@ -3,20 +3,13 @@
     filter: blur(10px);
     -webkit-filter: blur(10px);
   }
-  #imagen02 img{
+  .imagenes:nth-child(even){
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
   }
+
   #imagen03 img{
     filter: sepia(90%);
     -webkit-filter: sepia(90%);
-  }
-  #imagen04 img{
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-  }
-  #imagen06 img{
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
   }
 }
